@@ -1,4 +1,4 @@
-# controle-candidatos
+# Controle-candidatos
 
 # Projeto: Processo Seletivo
 Este projeto consiste em um programa Java para gerenciar um processo seletivo de candidatos. Ele inclui a seleção de candidatos com base em seus salários pretendidos e a análise de candidatos com diferentes salários pretendidos.
