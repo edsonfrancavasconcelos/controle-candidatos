@@ -8,9 +8,9 @@ public class ProcessoSeletivo {
     selecaoCandidatos();
 
     // Analisando candidatos com diferentes salários pretendidos
-    analizarCandidato(1900.0);
-    analizarCandidato(2200.0);
-    analizarCandidato(2000.0);
+    //analizarCandidato(1900.0);
+    //analizarCandidato(2200.0);
+    //analizarCandidato(2000.0);
   }
 
   static void selecaoCandidatos() {
@@ -19,7 +19,7 @@ public class ProcessoSeletivo {
     int candidatosSelecionados = 0;
     int candidatoAtual = 0;
     double salarioBase = 2000.0;
-    while (candidatosSelecionados < 5) {
+    while (candidatosSelecionados < 5 && candidatoAtual < candidatos.length) {
       String candidato = candidatos[candidatoAtual];
       double salarioPretendido = valorPretendido();
 
